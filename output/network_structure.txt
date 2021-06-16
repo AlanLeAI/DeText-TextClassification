@@ -1,0 +1,11 @@
+# Trainable variables
+  w_pretrained_embedding:0, (9255, 64), /device:CPU:0
+  cnn/doc_cnn_0_3/kernel:0, (3, 64, 1, 50), /device:CPU:0
+  cnn/doc_cnn_0_3/bias:0, (50,), /device:CPU:0
+  wide_ftr_norm_w:0, (1,), /device:CPU:0
+  wide_ftr_norm_b:0, (1,), /device:CPU:0
+  scoring/kernel:0, (51, 6), /device:CPU:0
+  scoring/bias:0, (6,), /device:CPU:0
+
+# Total trainable params: 602284
+# Out of the total trainable params, the total cnn parameters: 9650
